@@ -1,3 +1,6 @@
+# React Context API Example
+This project was created to ilustrate the use of the React Context API.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
