@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Contact = (props) => {
   const { id, name, email, phone, onDeleteClick } = props;
-  const [isDisplaying, setIsDisplaying] = useState(true);
+  const [isDisplaying, setIsDisplaying] = useState(false);
 
   const onClickShow = useCallback(() => {
     setIsDisplaying(!isDisplaying);
